@@ -5,12 +5,17 @@
 <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License MIT" />
 <a href="https://cocoapods.org/pods/KPTimeAgo"><img src="https://img.shields.io/badge/pod-0.0.2-blue.svg" alt="CocoaPods compatible" /></a>
 
+## CocoaPods Install
 
-*Swift 5.0 *
+Add this to your Podfile.
 
-```ruby
+```
 pod 'KPTimeAgo'
 ```
+
+## Manual Install
+Just Drag and drop KPTimeAgo to your project.
+
 
 ## Usage
 
@@ -30,15 +35,6 @@ Other Example
 //July 25, 2023
 
 
-```
-
-
-## CocoaPods Install
-
-Add this to your Podfile.
-
-```
-pod 'KPTimeAgo'
 ```
 
 
