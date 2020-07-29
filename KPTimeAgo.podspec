@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'KPTimeAgo'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.license = 'MIT'
   s.summary = 'Relative Time ago formate.'
   s.homepage = 'https://github.com/parth0072'
