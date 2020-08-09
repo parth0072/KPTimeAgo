@@ -35,6 +35,11 @@ Other Example
 //July 25, 2023
 
 
+Custom date format 
+let timeAgo = KPTimeAgo.init(date: self.dateForComponents { $0.year = +6 }!, yesterdayFormat: nil, lastWeekFormat: nil, lastMonthFormat: nil, otherFormat: "LLLL d, yyyy")
+print(timeAgo.formatDateAsTimeAgo())  //August 9, 2026 
+
+
 ```
 
 
