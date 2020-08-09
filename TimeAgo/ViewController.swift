@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         timeAgoWithCustomFormat()
     }
     
+    //////######### Custom Format #########
+    ///August 9, 2026
+
     func timeAgoWithCustomFormat() {
         let timeAgo = KPTimeAgo.init(date: self.dateForComponents { $0.year = +6 }!, yesterdayFormat: nil, lastWeekFormat: nil, lastMonthFormat: nil, otherFormat: "LLLL d, yyyy")
         print(timeAgo.formatDateAsTimeAgo())
